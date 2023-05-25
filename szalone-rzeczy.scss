@@ -1,0 +1,16 @@
+$colors: (
+  red: red,
+  green: green,
+  white: white,
+  black: black,
+  kebab: brown,
+);
+
+.square {
+  @each $colorName, $colorValue in $colors {
+    &--#{$colorName} {
+      background-color: $colorValue;
+      color: $colorValue;
+    }
+  }
+}

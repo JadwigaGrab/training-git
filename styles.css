@@ -1,4 +1,64 @@
+.square--red {
+  background-color: red;
+  color: red;
+}
+
+.square--green {
+  background-color: green;
+  color: green;
+}
+
+.square--white {
+  background-color: white;
+  color: white;
+}
+
+.square--black {
+  background-color: black;
+  color: black;
+}
+
+.square--kebab {
+  background-color: brown;
+  color: brown;
+}
+
 body {
-    background-color: purple;
-    font-size: 10pt;
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.container .square {
+  width: 80px;
+  height: 80px;
+  background-color: #77f;
+}
+
+.container .square--red {
+  background-color: red;
+  color: red;
+}
+
+.container .square--white {
+  background-color: white;
+  color: white;
+}
+
+.container .square--black {
+  background-color: black;
+  color: black;
+}
+
+.container .square--green {
+  background-color: green;
+  color: green;
+}
+
+.container .square--kebab {
+  background-color: brown;
+  color: brown;
 }

@@ -1,0 +1,37 @@
+@import './szalone-rzeczy.scss';
+
+body {
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+
+  .square {
+    width: 80px;
+    height: 80px;
+    background-color: #77f;
+
+    &--red {
+      background-color: red;
+      color: red;
+    }
+    &--white {
+      background-color: white;
+      color: white;
+    }
+    &--black {
+      background-color: black;
+      color: black;
+    }
+    &--green {
+      background-color: green;
+      color: green;
+    }
+    &--kebab {
+      background-color: brown;
+      color: brown;
+    }
+  }
+}
